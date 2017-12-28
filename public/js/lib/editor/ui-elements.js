@@ -37,6 +37,7 @@ export const getUIElements = () => ({
     edit: $('.ui-edit'),
     view: $('.ui-view'),
     both: $('.ui-both'),
+    dark: $('.ui-dark'),
     uploadImage: $('.ui-upload-image')
   },
   infobar: {
