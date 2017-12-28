@@ -1635,7 +1635,7 @@ ui.toolbar.both.click(function () {
 })
 
 ui.toolbar.dark.click(function () {
-  toggleDarkMode();
+  toggleDarkMode()
 })
 // permission
 // freely
@@ -1670,19 +1670,16 @@ $('.ui-delete-modal-confirm').click(function () {
   socket.emit('delete')
 })
 
-function toggleDarkMode(){
-
-    var $body = $('body');
-    var isActive = ui.toolbar.dark.hasClass("active");
-
-    if( isActive ){
-        $body.removeClass("dark");
-        appState.darkMode = off;
-
-    }else{
-        $body.addClass("dark");
-        appState.darkMode = on;
-    }
+function toggleDarkMode () {
+  var $body = $('body')
+  var isActive = ui.toolbar.dark.hasClass('active')
+  if (isActive) {
+    $body.removeClass('dark')
+    appState.darkMode = false
+  } else {
+    $body.addClass('dark')
+    appState.darkMode = true
+  }
 }
 function emitPermission (_permission) {
   if (_permission !== permission) {
