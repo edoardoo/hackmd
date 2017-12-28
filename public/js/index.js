@@ -1633,6 +1633,10 @@ ui.toolbar.view.click(function () {
 ui.toolbar.both.click(function () {
   changeMode(modeType.both)
 })
+
+ui.toolbar.dark.click(function () {
+  toggleDarkMode()
+})
 // permission
 // freely
 ui.infobar.permission.freely.click(function () {
@@ -1666,6 +1670,17 @@ $('.ui-delete-modal-confirm').click(function () {
   socket.emit('delete')
 })
 
+function toggleDarkMode () {
+  var $body = $('body')
+  var isActive = ui.toolbar.dark.hasClass('active')
+  if (isActive) {
+    $body.removeClass('dark')
+    appState.darkMode = false
+  } else {
+    $body.addClass('dark')
+    appState.darkMode = true
+  }
+}
 function emitPermission (_permission) {
   if (_permission !== permission) {
     socket.emit('permission', _permission)
