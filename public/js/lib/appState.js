@@ -2,7 +2,7 @@ import modeType from './modeType'
 
 let state = {
   syncscroll: true,
-  nightMode: false
+  nightMode: false,
   fullscreen: false
 }
 
