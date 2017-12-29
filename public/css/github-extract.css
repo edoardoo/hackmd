@@ -68,7 +68,7 @@
     color: #777;
     border-left: 0.25em solid #ddd;
 }
-.dark .markdown-body blockquote{
+.night .markdown-body blockquote{
     color: #bcbcbc;
 }
 
@@ -110,13 +110,13 @@
     line-height: 1.25;
 }
 
-.dark .markdown-body h1,
-.dark .markdown-body h2,
-.dark .markdown-body h3,
-.dark .markdown-body h4,
-.dark .markdown-body h5,
-.dark .markdown-body h6 {
-    color: #eee;
+.night .markdown-body h1,
+.night .markdown-body h2,
+.night .markdown-body h3,
+.night .markdown-body h4,
+.night .markdown-body h5,
+.night .markdown-body h6 {
+    color: #ddd;
 }
 
 .markdown-body h1 .octicon-link,
@@ -130,12 +130,12 @@
     visibility: hidden;
 }
 
-.dark .markdown-body h1 .octicon-link,
-.dark .markdown-body h2 .octicon-link,
-.dark .markdown-body h3 .octicon-link,
-.dark .markdown-body h4 .octicon-link,
-.dark .markdown-body h5 .octicon-link,
-.dark .markdown-body h6 .octicon-link {
+.night .markdown-body h1 .octicon-link,
+.night .markdown-body h2 .octicon-link,
+.night .markdown-body h3 .octicon-link,
+.night .markdown-body h4 .octicon-link,
+.night .markdown-body h5 .octicon-link,
+.night .markdown-body h6 .octicon-link {
     color: #fff;
 }
 
@@ -269,7 +269,7 @@
     background-color: #fff;
     border-top: 1px solid #ccc;
 }
-.dark .markdown-body table tr {
+.night .markdown-body table tr {
     background-color: #5f5f5f;
 }
 
@@ -277,7 +277,7 @@
     background-color: #f8f8f8;
 }
 
-.dark .markdown-body table tr:nth-child(2n){
+.night .markdown-body table tr:nth-child(2n){
 
     background-color: #4f4f4f;
 }
@@ -401,18 +401,13 @@
     border-radius: 3px;
 }
 
-.dark .markdown-body code,
-.dark .markdown-body tt {
+.night .markdown-body code,
+.night .markdown-body tt {
 
     color: #eee;
     background-color: rgba(230, 230, 230, 0.36);
 
 }
-
-/*.dark .markdown-body code .code{
-
-    color: #333 !important;
-}*/
 
 .markdown-body code::before,
 .markdown-body code::after,

@@ -11,13 +11,13 @@ body {
     /*overflow: hidden;*/
 }
 
-.dark a,
-.dark .open-files-container li.selected a {
+.night a,
+.night .open-files-container li.selected a {
     color: #5EB7E0;
 }
 
-body.dark{
-    background: #333;
+body.night{
+    background: #333 !important;
 }
 
 .CodeMirror {
@@ -128,7 +128,7 @@ body.dark{
     margin-right: 0;
 }
 
-.dark .ui-content{
+.night .ui-content{
     background-color: #333;
 }
 
@@ -160,7 +160,7 @@ body.dark{
     box-shadow: inset 0 3px 5px rgba(0,0,0,.125), 2px 0px 2px #e7e7e7;
 }
 
-.dark .ui-edit-area .ui-resizable-handle.ui-resizable-e{
+.night .ui-edit-area .ui-resizable-handle.ui-resizable-e{
    background: #3c3c3c;
    box-shadow: 3px 0px 6px #353535;
 }
@@ -176,9 +176,9 @@ body.dark{
     }
 }
 
-.dark .ui-view-area{
+.night .ui-view-area{
     background: #333;
-    color: #f2f2f2;
+    color: #ededed;
 }
 
 
@@ -267,16 +267,16 @@ body.dark{
     cursor: pointer;
 }
 
-.dark .navbar-default .navbar-nav > li > a:focus,
-.dark .navbar-default .navbar-nav > li > a:hover,
-.dark .navbar-default .navbar-brand:focus,
-.dark .navbar-default .navbar-brand:hover{
+.night .navbar-default .navbar-nav > li > a:focus,
+.night .navbar-default .navbar-nav > li > a:hover,
+.night .navbar-default .navbar-brand:focus,
+.night .navbar-default .navbar-brand:hover{
     color: #fff;
 }
 
-.dark .navbar-default .navbar-nav > .open > a,
-.dark .navbar-default .navbar-nav > .open > a:focus,
-.dark .navbar-default .navbar-nav > .open > a:hover {
+.night .navbar-default .navbar-nav > .open > a,
+.night .navbar-default .navbar-nav > .open > a:focus,
+.night .navbar-default .navbar-nav > .open > a:hover {
     color: white;
     background: #000;
 
@@ -288,7 +288,7 @@ body.dark{
     overflow: hidden;
 }
 
-.dark .dropdown-menu{
+.night .dropdown-menu{
     background: #222;
 }
 
@@ -340,13 +340,13 @@ div[contenteditable]:empty:not(:focus):before{
     background: inherit;
 }
 
-.dark .navbar .btn-default{
+.night .navbar .btn-default{
     background-color: #333;
     border-color: #565656;
     color: #eee;
 }
 
-.dark .btn.btn-default.ui-view.active{
+.night .btn.btn-default.ui-view.active{
     background: #202020;
 }
 
@@ -370,9 +370,9 @@ div[contenteditable]:empty:not(:focus):before{
     display: block;
 }
 
-.dark .btn.focus,
-.dark .btn:focus,
-.dark .btn:hover{
+.night .btn.focus,
+.night .btn:focus,
+.night .btn:hover{
     color: #fff;
 }
 

@@ -1634,8 +1634,8 @@ ui.toolbar.both.click(function () {
   changeMode(modeType.both)
 })
 
-ui.toolbar.dark.click(function () {
-  toggleDarkMode()
+ui.toolbar.night.click(function () {
+  toggleNightMode()
 })
 // permission
 // freely
@@ -1670,15 +1670,15 @@ $('.ui-delete-modal-confirm').click(function () {
   socket.emit('delete')
 })
 
-function toggleDarkMode () {
+function toggleNightMode () {
   var $body = $('body')
-  var isActive = ui.toolbar.dark.hasClass('active')
+  var isActive = ui.toolbar.night.hasClass('active')
   if (isActive) {
-    $body.removeClass('dark')
-    appState.darkMode = false
+    $body.removeClass('night')
+    appState.nightMode = false
   } else {
-    $body.addClass('dark')
-    appState.darkMode = true
+    $body.addClass('night')
+    appState.nightMode = true
   }
 }
 function emitPermission (_permission) {
